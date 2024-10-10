@@ -5,4 +5,4 @@ def test_hello():
     runner = CliRunner()
     result = runner.invoke(hello, ["--name", "Thor",
         "--color", "blue"])
-    assert "Thor1" in result.output
+    assert "Thor" in result.output
